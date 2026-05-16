@@ -48,11 +48,11 @@ function App() {
         </div>
       </nav>
 
-      {/* --- 2. HERO SECTION (FIXED ASYMMETRIC GRID) --- */}
+      {/* --- 2. HERO SECTION (FIXED GRID SYNTAX) --- */}
       <section className="px-4 md:px-12 py-12 md:py-24 min-h-[85vh] flex flex-col justify-center bg-[#000000]">
         <RectangleReveal>
-          {/* Kolon Kiri diberi porsi 1.8fr agar teks tidak terjepit */}
-          <div className="grid grid-cols-[1.8fr,1fr] md:grid-cols-[2fr,1fr] gap-4 md:gap-16 items-start max-w-7xl mx-auto w-full">
+          {/* DISINI KUNCINYA LE: Koma diganti spasi [_] biar grid kanan-kiri aktif sempurna */}
+          <div className="grid grid-cols-[1.8fr_1fr] md:grid-cols-[2fr_1fr] gap-4 md:gap-16 items-start max-w-7xl mx-auto w-full">
             
             {/* KONTEN KIRI (HEADLINE & TENTANG SAYA) */}
             <div className="space-y-10 md:space-y-16">
@@ -69,7 +69,7 @@ function App() {
                 </p>
               </div>
 
-              {/* Tentang Saya (Font disesuaikan skala HP) */}
+              {/* Tentang Saya */}
               <div id="tentang" className="text-left space-y-4 max-w-xl">
                 <div className="inline-block px-2.5 py-0.5 md:px-4 md:py-1 rounded-full bg-white/5 border border-white/10 text-gray-400 text-[8px] md:text-[11px] font-bold uppercase tracking-widest">
                   Informatics Student
