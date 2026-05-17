@@ -74,7 +74,7 @@ function App() {
                 <div className="inline-block px-2.5 py-0.5 md:px-4 md:py-1 rounded-full bg-white/5 border border-white/10 text-gray-400 text-[8px] md:text-[11px] font-bold uppercase tracking-widest">
                   Informatics Student
                 </div>
-                <h2 className="text-lg sm:text-4xl md:text-6xl font-black text-white uppercase tracking-tighter italic">/ Tentang Saya</h2>
+                <h2 className="text-lg sm:text-4xl md:text-6xl font-black text-white uppercase tracking-tighter italic">Tentang Saya</h2>
                 <p className="text-slate-400 text-[11px] sm:text-lg md:text-2xl leading-relaxed font-medium">
                   Halo, saya Muhammad Adil Keysa Andra. Sebagai mahasiswa informatika, saya aktif mengeksplorasi cyber security, tools open-source, dan otomasi sistem.
                 </p>
@@ -206,7 +206,7 @@ function App() {
       {/* --- 6. FOOTER --- */}
       <footer className="py-24 text-center border-t border-white/5 bg-[#000000]">
         <p className="text-slate-800 text-[8px] md:text-[10px] font-mono tracking-[0.5em] uppercase">
-          Built in Pekalongan — 2026 — Termux Powered
+          Built with Termux — 2026
         </p>
       </footer>
 
